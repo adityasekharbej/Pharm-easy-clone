@@ -189,8 +189,11 @@ a{
 .upper{
     display: flex;
     justify-content: space-between;
-    height: 140px;
+    height: 120px;
     /* border: 1px solid green; */
+    box-sizing: border-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
 
 }
 
@@ -242,6 +245,8 @@ a{
 .text>p:last-child{
     font-size: 14px;
     color: #4f585e;
+    height: 47px;
+    overflow: hidden;
 }
 .cbtn{
     color: #10847e;
