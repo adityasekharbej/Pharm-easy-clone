@@ -9,7 +9,6 @@ body{
 }
 #path{
     display: flex;
-    /* border: 1px solid #000; */
     font-size:12px;
     gap: 10px;
 }
