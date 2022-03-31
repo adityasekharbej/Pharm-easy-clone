@@ -1,0 +1,628 @@
+#container {
+    width: 100%;
+    height: auto;
+    line-height: 1.25;
+  }
+
+  #main {
+    display: flex;
+    width: 1024px;
+    height: 300px;
+    margin: auto;
+    /* border:1px solid red; */
+    background-color: transparent;
+  }
+
+  #slideshow>img {
+    width: 950px;
+    height: 280px;
+    transition: all 0.5s;
+  }
+
+  #img1 {
+    transform: rotate(180deg);
+    margin-bottom: 150px;
+    background: transparent;
+
+  }
+
+  #img2 {
+    margin-top: 110px;
+    background: transparent;
+
+  }
+
+  .facality {
+    margin: auto;
+    width: 1024px;
+    height: 80px;
+    display: flex;
+    /* border: 2px solid red; */
+  }
+
+  .facality>div {
+    margin: auto;
+    width: 240px;
+    height: 80px;
+    border: 1px solid black;
+    border-radius: 40px;
+
+  }
+
+  .facality>div>a {
+    width: 240px;
+    height: 80px;
+    align-items: center;
+    display: flex;
+    padding-left: 15px;
+  }
+
+  .facality>div>a>img {
+    padding-right: 15px;
+  }
+
+  .facality>div>a>p {
+    width: 101px;
+    height: 33px;
+    color: #617686;
+    margin-top: 15px;
+    font-weight: bold;
+  }
+
+  .facality>div>a>p:hover {
+    color: #10847e;
+    border: #10847e;
+    cursor: pointer;
+  }
+
+  #membership {
+    display: flex;
+    width: 1024px;
+    height: 64.83px;
+
+    background: #8573e1 url(https://assets.pharmeasy.in/web-assets/dist/527af8cc.svg) no-repeat 100%;
+    position: relative;
+    margin: 15px 0;
+    padding: 10px;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 15px;
+  }
+
+  #certified {
+    width: 1024px;
+    height: 20px;
+    display: flex;
+  
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  #certified>#certi1 {
+    color: #4f585e;
+    font-weight: bold;
+    font-size: 16px;
+
+  }
+
+  #certified>#certi2 {
+    color: #10847e;
+    font-weight: bold;
+  }
+
+  .test1 {
+    width: 1024px;
+    height: 171px;
+    display: flex;
+    justify-content: flex-start;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  .test {
+    width: 264px;
+    height: 171px;
+    border: 0.5px solid#dcdcdc;
+    border-radius: 5px;
+  }
+
+  .test:hover {
+    color: #10847e;
+    border-color: #10847e;
+  }
+
+  .test>div>#imag {
+    margin: 15px 15px;
+    width: 80px;
+    height: 57px;
+    border: 0.5px solid#dcdcdc;
+    border-radius: 5px;
+  }
+
+  .test>div>#imag>img {
+    width: 70px;
+    height: 24.24px;
+    margin-top: 10px;
+    /* margin: 10px 25px; */
+
+
+
+  }
+
+  .test>div>#imag1 {
+    width: 109px;
+    height: 64px;
+    margin-left: 10px;
+  }
+
+  #imag1>h5 {
+    font-size: 14px;
+  }
+
+  #imag1>div {
+    font-size: 12px;
+    margin-top: 10px;
+    color: #a9b3bc;
+  }
+
+  #Affordable {
+    width: 1024px;
+    height: 20px;
+    display: flex;
+   
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  #Affordable>div:first-child {
+    color: #4f585e;
+    font-weight: bold;
+    font-size: 16px;
+
+  }
+
+  #Affordable>#Affor1 {
+    color: #10847e;
+    font-weight: bold;
+
+  }
+
+  #slideshow-container {
+    display: flex;
+    width: 1024px;
+    height: 194px;
+
+  }
+
+  .slide1 {
+
+    display: flex;
+    margin: auto;
+    width: 1024px;
+    height: 220px;
+    /* border: 1px solid red; */
+    overflow: hidden;
+  }
+
+  .slide1>div:hover {
+    color: #10847e;
+    border-color: #10847e;
+  }
+
+  .slide1>div {
+    width: 264px;
+    margin-left: 15px;
+    min-height: 194px;
+    border: 0.5px solid#dcdcdc;
+    border-radius: 5px;
+  }
+
+  .slide1>div>#slid1 {
+    width: 220px;
+    height: 102px;
+    margin: auto;
+    margin-left: 15px;
+
+  }
+
+  .slide1>div>img {
+    margin: 10px 20px;
+    margin-bottom: 25px;
+  }
+
+  .slide1>div>#slid1>h3 {
+    width: 220px;
+    font-size: 16px;
+    height: 20.79px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #4f585e
+  }
+
+  .slide1>div>#slid1>h4 {
+    width: 220px;
+    font-size: 15px;
+    height: 20.79px;
+    color: #4f585e
+  }
+
+  .slide1>div>#slid1>h5 {
+    width: 220px;
+    font-size: 16px;
+    height: 20.79px;
+    color: #4f585e
+  }
+
+  .slide1>div>#slid1>p {
+    width: 220px;
+    font-size: 13px;
+    height: 20.79px;
+    color: #a9b3bc;
+  }
+
+  .slide2 {
+    display: flex;
+    margin: auto;
+    width: 1024px;
+    height: 220px;
+    /* border: 1px solid red; */
+  }
+
+  .slide2>div:hover {
+    color: #10847e;
+    border-color: #10847e;
+  }
+
+  .slide2>div {
+    width: 264px;
+    margin-left: 15px;
+    min-height: 194px;
+    border: 0.5px solid#dcdcdc;
+    border-radius: 5px;
+  }
+
+  .slide2>div>#slid2 {
+    width: 220px;
+    height: 102px;
+    margin: auto;
+    margin-left: 15px;
+
+  }
+
+  .slide2>div>img {
+    margin: 10px 20px;
+    margin-bottom: 25px;
+  }
+
+  .slide2>div>#slid2>h3 {
+    width: 220px;
+    font-size: 16px;
+    height: 20.79px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #4f585e
+  }
+
+  .slide2>div>#slid2>h4 {
+    width: 220px;
+    font-size: 15px;
+    height: 20.79px;
+    color: #4f585e
+  }
+
+  .slide2>div>#slid2>h5 {
+    width: 220px;
+    font-size: 16px;
+    height: 20.79px;
+    color: #4f585e
+  }
+
+  .slide2>div>#slid2>p {
+    width: 220px;
+    font-size: 13px;
+    height: 20.79px;
+    color: #a9b3bc;
+  }
+
+   .show.carousel-control-prev-icon {
+    outline: #10847e;
+    background-size: 100%, 100%;
+    background: url("https://assets.pharmeasy.in/web-assets/dist/a9a45455.svg");
+    color: #10847e;
+    transform: rotate(180deg);
+    /* color:; */
+    margin-left: 120px;
+    z-index: 1.5;
+  }
+
+  .show.carousel-control-next-icon {
+    outline: #10847e;
+    margin-right: 120px;
+    z-index: 1.5;
+    background-size: 100%, 100%;
+    background: url("https://assets.pharmeasy.in/web-assets/dist/a9a45455.svg");
+
+  }
+
+  .imformation {
+
+    width: 1024px;
+  
+    height: auto;
+    margin: auto;
+    font-size: 15px;
+    margin-top: 50px;
+  }
+
+  .imformation>.imform {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    color: #4f585e
+  }
+
+  .imformation>.imform1 {
+    font-size: 15px;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    color:#868d91;
+  }
+
+  .imformation>h2 {
+    font-size: 17px;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    color: #4f585e
+  }
+  .imformation>.imform1>ul>li{
+    color: #10847e;
+    list-style-image: #10847e;
+  }
+  .imformation>.imform1>a{
+    color: #10847e;
+  }
+  .frequent{
+    width: 1024px;
+  
+  height: auto;
+  margin: auto;
+  margin-top: 30px;
+  }
+  .HappyUsers{
+    margin: auto;
+  
+    margin-top: 40px;
+    width: 100%;
+    height: 300px;
+  background-color: #f4f7fb;
+  }
+  .HappyUsers>h2{
+      margin: auto;
+      width: 1024px;
+      margin-top: 80px;
+      margin-bottom: 30px;
+      color:#4f585e;
+  }
+  .slideshow1>#careo{
+    margin-top:50px;
+    display: flex;
+    width: 520px;
+    height: 95px;
+  }
+  .slideshow1>#careo>div>img{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+  }
+  .slideshow1>#careo>div:last-child{
+    width:360px;
+    margin-left: 30px;
+    margin-top: 10px;
+    height: 95px;
+  }
+  .slideshow1>#careo>div:last-child>h3{
+    color: #4f585e;
+    font-size: 16px;
+  }
+  .slideshow1>#careo>div:last-child>p{
+    font-size: 15px;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    color:#868d91;
+  }
+  .slideshow1{
+    display: flex;
+    margin: auto;
+    width: 1024px;
+    height: 264px;
+  }
+  .slideshow2>#careo{
+    margin-top:50px;
+    display: flex;
+  }
+  .slideshow2>#careo>div>img{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+  }
+  .slideshow2>#careo>div:last-child{
+    width:360px;
+    margin-left: 30px;
+    margin-top: 10px;
+    height: 95px;
+  }
+  .slideshow2>#careo>div:last-child>h3{
+    color: #4f585e;
+    font-size: 16px;
+  }
+  .slideshow2>#careo>div:last-child>p{
+    font-size: 15px;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    color:#868d91;
+  }
+  .slideshow2{
+    display: flex;
+    margin: auto;
+    width: 1024px;
+    height:  264px;
+  }
+  .slideshow3{
+    display: flex;
+    margin: auto;
+    width: 1024px;
+    height: 300px;
+  }
+  .slideshow3>div{
+    margin-left: 30px;
+  }
+  .slideshow3>div>img{
+    width: 238px;
+    height: 136px;
+  }
+  .slideshow3>div>h3{
+    margin-top: 20px;
+    color: #4f585e;
+    font-size: 16px;
+  }
+  .slideshow3>div>p{
+    font-size: 15px;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    color:#868d91;
+  }
+  .slideshow4{
+    display: flex;
+    margin: auto;
+    width: 1024px;
+    height: 300px;
+  }
+  .slideshow4>div{
+    margin-left: 30px;
+  }
+  .slideshow4>div>img{
+    width: 238px;
+    height: 136px;
+  }
+  .slideshow4>div>h3{
+    margin-top: 20px;
+    color: #4f585e;
+    font-size: 16px;
+}
+.slideshow4>div>p{
+  font-size: 15px;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    color:#868d91;
+}
+  .Affordable{
+
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+    width: 1024px;
+    height: 264px;
+  }
+  #policy{
+    width: 73%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5%;
+    font-size: 17px;
+    line-height: 1.5;
+    margin-top:80px ;
+}
+#policy > div{
+    box-sizing: border-box;
+}
+
+#policy img+p{
+    font-weight: 700;
+    color: #4f585e;
+    margin-top:20px ;
+}
+#policy p+p{
+    color: #8897a2;
+}
+
+#download{
+  width:1240;
+  height: auto;
+ 
+    display: flex;
+    justify-content: flex-start;
+    gap: 111px;
+    margin: auto;
+    margin-top: 30px;
+    margin-left: 150px;
+}
+#download img{
+    width: 210px;
+    height: 416px;
+}
+#download p{
+    font-size:20px;
+    color: #4f585e;
+}
+#btns>div:nth-child(2){
+    display: flex;
+}
+#download button{
+    display: flex;
+    align-items: center;
+    width: 175px;
+    margin-right: 20px;
+    height: 56px;
+    border: none;
+    background-color: #4f585e;
+    opacity: .95;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #fff;
+    padding: 10px 15px;
+}
+#download i{
+    margin-right: 10px;
+    font-size: 25px;
+}
+
+#download button:hover{
+    background-color: #4b4b4b;
+}
+.frequent{
+width:1024px;
+height: auto;
+
+}
+.frequent>.heading{
+  width:1024px;
+height: 24px;
+color: #4f585e;
+font-weight:600;
+margin-bottom: 5px;
+}
+
+.accordion-item{
+ margin-bottom: 10px;
+ line-height: 1.5;
+
+ color: #8897a2;
+}
+.accordion-header{
+  border: 1px solid #dfe3e6;
+    border-radius: 6px;
+    padding: 2px 5px;
+    margin: 15px 0;
+    line-height: 1.5;
+    color: #4f585e;
+    font-weight: 600;
+  /* border: 0.5px solid #a9b3bc; */
+  /* border-radius:10px; */
+}
