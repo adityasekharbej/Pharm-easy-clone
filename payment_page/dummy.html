@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.collapsible {
+  display:flex;
+  justify-content : space-between;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 80%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+.content {
+  display: none;
+  overflow: hidden;
+  text-align:center;
+}
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+#main
+{
+    width:50%;
+    margin:auto;
+    border:1px solid black;
+}
+</style>
+</head>
+<body>
+<div id="main">
+    <div class="collapsible">
+        <img src="https://cdn.pharmeasy.in/payments/amazonpay_new.png" alt="" style="height:50px; width:50px"> Amazon Pay <br>
+      Get upto 500 off on min transaction of 100 via amazon pay.
+      
+      <input type="radio"/> </div>
+      <div class="content">
+      <a href="#" class="button">Place Order & Pay</a>
+      </div>
+      
+      <div class="collapsible"><img src="https://cdn.pharmeasy.in/payments/wallet_icons/phonepe.png" alt="" style="height:50px; width:50px">PhonePe <br>
+        Get scratch card and win up to Rs.750 cashback via PhonePe.
+          
+          <input type="radio"/></div>
+      <div class="content">
+      <a href="#" class="button">Place Order & Pay</a>
+      </div>
+      
+      <div class="collapsible"><img src="https://cdn.pharmeasy.in/payments/wallet_icons/mobikwik.png" alt="" style="height:50px; width:50px">Mobikwik <br>
+          Get upto 500 off on min transaction of 100 via amazon pay.
+          
+          <input type="radio"/></div>
+      <div class="content">
+      <a href="#" class="button">Place Order & Pay</a>
+      </div>
+      
+      <div class="collapsible"><img src="https://cdn.pharmeasy.in/payments/wallet_icons/paytm.png" alt="" style="height:20px; width:50px"> Paytm Wallet  <br>
+          Get upto 500 off on min transaction of 100 via amazon pay.
+          
+          <input type="radio"/></div>
+      <div class="content">
+      <a href="#" class="button">Place Order & Pay</a>
+      </div>
+
+</div>
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+</html>
