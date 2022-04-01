@@ -37,7 +37,7 @@
   }
   .site-div{
       background-color: #10847e;
-      height: 90px;
+      height: 85px;
       margin-top: -60px;
       padding-top: 10px;
       padding-left: 10px;
@@ -175,12 +175,14 @@
       font-size: 20px;
       font-family: 'Times New Roman', Times, serif;
   }
-  .drawer-item>input{
+  #drawer-input{
       text-align: center;
       margin-left: 50px;
       height: 35px;
       width: 80%;
+      font-size: 20px;
       border-radius: 10px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       border: grey 0.5px solid;
 
   }
@@ -214,15 +216,13 @@
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   .site-div h4{
-    margin-left: 115px;
+    margin-left: 215px;
     margin-top: -8px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: lightgray;
 
   }
   .site-div h4:hover{
-    margin-left: 115px;
-    margin-top: -8px;
     color: white;
     cursor: pointer;
 
@@ -230,5 +230,17 @@
   .site-div img{
     width: 250px;
     height: 70px;
+  }
+  #drawerID button:hover{
+    cursor: pointer;
+  } 
+  .otpinput{
+    height: 45px;
+    width: 45px;
+    border-radius: 5px;
+    border: #10847e solid 1px;
+    margin-left: 60px;
+    text-align: center;
+    font-size: 20px;
   }
   
