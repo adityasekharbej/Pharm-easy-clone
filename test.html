@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div id="mySidenav" class="sidenav">
+        <div id="drawerID">
+            <div class="site-div">
+              <img src="https://assets.pharmeasy.in/web-assets/dist/fca22bc9.png" /><h4 onclick="closeNav()">X</h4>
+            </div>
+            <h3 class="drawer-link">Quick Login/ Register</h3>
+            <div class="drawer-item">
+              <input
+                type="number"
+                step="0.01"
+                class="drawer-link"
+                placeholder="Enter your phone number"
+              />
+            </div>
+            <button type="button" id="continue-btn">Continue</button>
+            <h6>
+              By clicking continue, you agree with our
+              <a href="#">Privacy Policy</a>
+            </h6>
+          </div>
+      </div>
+    <header id="nav-head">
+        <div class="navbar">
+          <div class="navbar-top">
+            <div class="navbar-logo">
+              <img
+                src="https://assets.pharmeasy.in/web-assets/dist/fca22bc9.png"
+                alt="Pharmeasy logo"
+              />
+            </div>
+            <div class="navbar-search">
+              <div id="search-box">
+                <select name="city" id="city">
+                  <option value="select-city">Select City</option>
+                  <option value="bengaluru">Bengaluru</option>
+                  <option value="delhi">Delhi NCR</option>
+                  <option value="pune">Pune</option>
+                  <option value="mumbai">Mumbai</option>
+                </select>
+                <input
+                  class="search-input"
+                  type="text"
+                  placeholder="Search here"
+                />
+              </div>
+            </div>
+            <div class="navbar-side">
+              <button onclick="" id="nav-btn">
+              </button>
+            </div>
+          </div>
+          <div class="navbar-menu">
+            <div class="navbar-tab">
+              <div id="tab-nav">
+                <button class="tab1">Order Medicines</button>
+                <button class="tab1">Healthcare Products</button>
+                <button class="tab1">Diagonstic Tests</button>
+              </div>
+            </div>
+            <div class="navbar-button">
+              <div id="btn-nav">
+                <button class="tab2">Offers</button>
+                <button class="tab2" onclick="openNav()">Login/ Signup</button>
+                <button class="tab2">Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+</body>
+</html>
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "500px";
+  }
+  
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+  }
+  </script>
