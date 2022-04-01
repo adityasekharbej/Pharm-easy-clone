@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="main.css">
-    <script src="main.js"></script>
+    <link rel="stylesheet" href="header.css">
+    <script src="header.js"></script>
+    <script src="https://kit.fontawesome.com/5eb914bf2e.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div id="mySidenav" class="sidenav">
@@ -22,7 +23,10 @@
                 placeholder="Enter your phone number"
               />
             </div>
-            <button type="button" id="continue-btn" onclick="enterOTP()">Continue</button>
+            <div id="btn-div">
+              <button type="button" id="continue-btn" onclick="enterOTP()">Continue</button>
+            </div>
+            
             <h6>
               By clicking continue, you agree with our
               <a href="#">Privacy Policy</a>
@@ -50,8 +54,8 @@
                 <input
                   class="search-input"
                   type="text"
-                  placeholder="Search here"
-                />
+                  placeholder="Search medicines/Healthcare products @18% Off"
+                /><i class="fa-solid fa-magnifying-glass"></i>
               </div>
             </div>
             <div class="navbar-side">
@@ -69,9 +73,9 @@
             </div>
             <div class="navbar-button">
               <div id="btn-nav">
-                <button class="tab2">Offers</button>
-                <button class="tab2" onclick="openNav()" id="loginuser">Login/ Signup</button>
-                <button class="tab2">Cart</button>
+                <button class="tab2"><i class="fa-solid fa-badge-percent"></i>Offers</button>
+                <button class="tab2" onclick="openNav()" id="loginuser"><i class="fa-solid fa-user"></i>Login/Signup</button>
+                <button class="tab2"><i class="fa-solid fa-cart-shopping"></i>Cart</button>
               </div>
             </div>
           </div>

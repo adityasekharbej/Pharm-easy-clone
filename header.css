@@ -81,6 +81,7 @@
     justify-self: center;
     background-color: #fff;
     border-radius: 5px;
+    box-sizing: border-box;
   }
   #nav-btn {
     text-align: left;
@@ -107,7 +108,7 @@
   #search-box > input {
     height: 92%;
     width: 82.3%;
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     padding: 0 10px;
     border: 1px solid #fff;
   }
@@ -242,5 +243,26 @@
     margin-left: 60px;
     text-align: center;
     font-size: 20px;
+  }
+  .fa-user{
+    margin-right: 4px;
+  }
+  .fa-cart-shopping{
+    margin-right: 4px;
+  }
+  .fa-magnifying-glass{
+    margin-left: 8px;
+    font-size: 20px;
+  }
+  #search-box input:focus{
+    border: none;
+    outline: none;
+  }
+  button:hover{
+    cursor: pointer;
+  }
+  #phoneNumber{
+    font-weight: lighter;
+    font-style: italic;
   }
   

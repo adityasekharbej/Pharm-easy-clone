@@ -14,15 +14,18 @@ const enterOTP=()=>{
     i4.setAttribute("class","otpinput")
     div[0].append(i1,i2,i3,i4);
     let heading=document.querySelector(".drawer-link");
-    heading.innerHTML=`Enter OTP sent to ${input}`;
+    heading.innerHTML=`Enter OTP sent to +91-${input}`;
+    heading.setAttribute("id","phoneNumber");
     let btndiv=document.getElementById("btn-div");
-    console.log(btndiv);
+    btndiv.innerHTML=null;
     let btn=document.createElement("button");
+    btn.innerText="Continue";
     btn.setAttribute("id","continue-btn");
-    document.getElementById("btn-div").append("btn");   
-    // btn.addEventListener("click",()=>{
-    //     document.getElementById("loginuser").innerText="User";
-    // })
+    btndiv.append(btn);
+    btn.addEventListener("click",()=>{
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("loginuser").innerHTML=`<i class="fa-solid fa-user"></i>User`;
+    })
     
     },500);
     
