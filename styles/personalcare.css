@@ -21,6 +21,7 @@ body{
 }
 #path p{
     color: #4f585e;
+    font-weight: 500;
 
 }
 #path>p:last-child{
@@ -176,6 +177,7 @@ h1 + .filter-div .checkbox{
 #container img{
     /* padding: 5px; */
     height: 200px;
+    max-width: 200px;
     background-size: cover;
 }
 

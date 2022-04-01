@@ -6,6 +6,10 @@ const displayData = (data)=>{
 
     data.map((elem)=>{
         let div = document.createElement('div');
+        div.addEventListener('click',()=>{
+            localStorage.setItem('selected_product', JSON.stringify(elem))
+            window.location.href = 'productdetail.html'
+        })
 
         let img = document.createElement('img');
         img.src = elem.img1;
