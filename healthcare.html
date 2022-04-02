@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1d18d1cefe.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/personalcare.css">
+    <link rel="stylesheet" href="./css/download.css">
+    <link rel="stylesheet" href="./css/policy.css">
+    <link rel="stylesheet" href="./css/afooter.css">
+    <link rel="stylesheet" href="./css/aheader.css">
+    <title>Health Care Product</title>
+    <link
+    rel="shortcut icon"
+    href="https://pharmeasy.in/pe_logo_2x.png"
+    type="image/x-icon"/>
+</head>
+<body>
+    <div id="header"></div>
+
+    <div id="main">
+
+        <div id="path">
+            <p>Home</p>
+            <i class="fa-solid fa-angle-right"></i>
+            <p>All Categories</p>
+            <i class="fa-solid fa-angle-right"></i>
+            <p>Personal Care</p>
+        </div>
+
+        <div id="content">
+            <div id="left">
+                <h1>Filter</h1>
+                <div class="filter-div">
+                    <h3>Category</h3>
+                    <div>
+                        <p>Personal Care</p>
+                        <input type="checkbox" class="checkbox">
+                    </div>
+                </div>
+                <div class="filter-div">
+                    <h3>Sub category</h3>
+                    <div>
+                        <p>Men Care</p>
+                        <input type="checkbox" class="checkbox">
+                    </div>
+                    <div>
+                        <p>Appliances</p>
+                        <input type="checkbox" class="checkbox">
+                    </div>
+                    <div>
+                        <p>Women Care</p>
+                        <input type="checkbox" class="checkbox">
+                    </div>
+                    <div>
+                        <p>Oral Care</p>
+                        <input type="checkbox" class="checkbox">
+                    </div>
+                    <div>
+                        <p>Male Grooming</p>
+                        <input type="checkbox" class="checkbox">
+                    </div>
+                    <a href="#">View More</a>
+                </div>
+                <div class="filter-div">
+                    <h3>Brand</h3>
+                    <div id="searchbar">
+                        <input type="text" placeholder="Search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <div>
+                        <p>&me</p>
+                        <input type="checkbox" class="checkbox">
+                    </div>
+                    <div>
+                        <p>23Yards</p>
+                        <input type="checkbox" class="checkbox">
+                    </div>
+                    <div>
+                        <p>360 Block</p>
+                        <input type="checkbox" class="checkbox">
+                    </div>
+                    <div>
+                        <p>Aarshaveda</p>
+                        <input type="checkbox" class="checkbox">
+                    </div>
+                    <div>
+                        <p>Accare</p>
+                        <input type="checkbox" class="checkbox">
+                    </div>
+                    <a href="#">View More</a>
+                </div>
+                <div class="filter-div">
+                    <h3>Price</h3>
+                    <div>
+                        <p>Below 99</p>
+                        <input type="checkbox" class="checkbox">
+                    </div>
+                    <div>
+                        <p>100 - 199</p>
+                        <input type="checkbox" class="checkbox">
+                    </div>
+                    <div>
+                        <p>200 - 299</p>
+                        <input type="checkbox" class="checkbox">
+                    </div>
+                    <div>
+                        <p>300 - 399</p>
+                        <input type="checkbox" class="checkbox">
+                    </div>
+                    <div>
+                        <p>400 - 499</p>
+                        <input type="checkbox" class="checkbox">
+                    </div>
+                    <a href="#">View More</a>
+                </div>
+                
+            </div>
+
+            <div id="right">
+                <div id="right-head">
+                    <h1>Personal Care</h1>
+                    <div>
+                        <p>Sort By: </p>
+                        <select onchange="sorter()" id="sort-select">
+                            <option value="popularity">Popularity</option>
+                            <option value="l2h">Price low to high</option>
+                            <option value="h2l">Price high to low</option>
+                            <option value="discount">Discount</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div id="container"></div>
+
+            </div>
+        </div>
+
+        <hr id="hr1">
+
+        <div id="policy"></div>
+
+        <hr id="hr2">
+
+        <div id="download"></div>
+
+    </div>
+
+    <div id="footer"></div>
+</body>
+</html>
+
+
+<script type="module">
+
+    import {policy, download} from './components/policyDownload.js'
+
+    let policyDiv = document.getElementById('policy')
+    policyDiv.innerHTML = policy()
+
+    let downloadDiv = document.getElementById('download')
+    downloadDiv.innerHTML = download()
+
+    import {header, footer} from './components/headerFooter.js'
+
+    let headerdiv = document.getElementById('header')
+    headerdiv.innerHTML = header()
+
+    let footerdiv = document.getElementById('footer')
+    footerdiv.innerHTML = footer()
+
+    function openNav() {
+    document.getElementById("mySidenav").style.width = "500px";
+    }
+    
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+
+</script>
+<script src="./scripts/healthData.js"></script>
+<script src="./scripts/healthcare.js"></script>
+<script src="./scripts/header.js"></script>

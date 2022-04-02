@@ -1,0 +1,221 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height:1.5;
+    letter-spacing: 1.2;
+}
+
+#main{
+    width: 70%;
+    margin: auto;
+}
+#path{
+    display: flex;
+    font-size:12px;
+    gap: 10px;
+}
+#path i{
+    font-size: 9px;
+    margin-top: 17px;
+    color: #000;
+
+}
+#path p{
+    color: #4f585e;
+    font-weight: 500;
+
+}
+#path>p:last-child{
+    color: #8897a2;
+}
+#content{
+    display: flex;
+    justify-content: space-between;
+}
+#left{
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    color: #4f585e;
+
+}
+#right{
+    width: 70%;
+    color: #4f585e;
+
+}
+#left h1{
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+#left h3{
+    font-weight: 600;
+
+}
+.filter-div > div{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    height: 40px;
+    box-sizing: border-box;
+    align-items: center;
+}
+.filter-div{
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    margin-top: -20px;
+    border-bottom: 1px solid #dfe3e6;
+}
+.checkbox{
+    width: 1.5em;
+    height: 1.5em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 2px solid #4f585e;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+    /* margin-top: 19px; */
+}
+.checkbox:checked {
+    background-color: #10847e;
+    border: 2px solid #10847e;
+
+}
+
+h1 + .filter-div .checkbox{
+    background-color: #10847e;
+    border: 2px solid #10847e;
+}
+
+#left a{
+    text-decoration: none;
+    color: #10847e;
+    font-weight: 600;
+}
+#searchbar{
+    width: 100%;
+    color: #4f585e;
+    font-family: Open Sans,sans-serif;
+    font-size: 16px;
+    border: 1px solid #8897a2;
+    border-radius: 6px;
+    height: 45px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+#searchbar input{
+    border: none;
+    padding-left: 10px;
+    height: 25px;
+}
+#searchbar input:focus{
+    outline: none;
+    border: none;
+
+
+}
+#searchbar i{
+    padding-right: 15px;
+    font-size: 18px;
+    /* font-weight: 400; */
+    color: #8897a2;
+}
+#right-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+#right h1{
+    font-size: 26px;
+    font-weight: 600;
+}
+#right h1+div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+#sort-select{
+    width: 250px;
+    padding: 10px;
+    font-size: 17px;
+    color: #4f585e;
+    border: 1px solid #8897a2;
+    border-radius: 6px;
+}
+
+#hr1{
+    margin: 80px -22% 50px;
+    border:0.5px solid #dfe3e6;
+}
+#hr2{
+    margin: 50px -22% 80px;
+    border:0.1px solid #dfe3e6;
+}
+#container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+#container > div{
+    padding: 20px 10px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 6px;
+    border: 1px solid #dfe3e6;
+    color: #4f585e;
+}
+#container > div:hover{
+    border: 1px solid #10847e;
+
+}
+#container img{
+    /* padding: 5px; */
+    height: 200px;
+    max-width: 200px;
+    background-size: cover;
+}
+
+#container img+h3{
+    /* border: 1px solid red; */
+    margin: 5px 0;
+    line-height: 1.5;
+    height: calc(2em * 1.5);
+    overflow: hidden;
+    text-align: left;
+    text-overflow: ellipsis;
+    font-weight: 600;
+}
+#offDiv{
+    display: flex;
+    gap: 5px;
+    font-size: 14px;
+    color: #8897a2;
+    margin-top: -10px;
+}
+#offDiv>p:nth-child(2){
+    text-decoration: line-through;
+}
+#offDiv>p:nth-child(3){
+    background-image: url('https://assets.pharmeasy.in/web-assets/_next/static/media/pdp-discount.3be9b0b7b6df33237af63e00f8e4de02.png');
+    color: #fff;
+    font-size: 10px;
+    padding: 2px 20px 5px 5px;
+    text-align: left;
+    min-width: 65px;
+    height: 20px;
+    background-repeat: no-repeat;
+    align-items: center;
+    font-weight: 600;
+    margin-left: 5px;
+}
+#offDiv+p{
+    text-align: left;
+    font-weight: 500;
+    margin: -15px 0 2px;
+}
