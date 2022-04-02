@@ -1,0 +1,271 @@
+/* For the Side Login bar */
+/* #header{
+
+} */
+.sidenavn {
+    height: 100%;
+    width: 0  ;
+    position: fixed  ;
+    z-index: 1  ;
+    top: 0 ;
+    right: 0 !important ;
+    background-color: white ;
+    overflow-x: hidden ;
+    transition: 0.5s ;
+    padding-top: 60px  ;
+    border: #000 solid 1px  ;
+  }
+  
+  .sidenavn>a {
+    padding: 8px 8px 8px 32px  ;
+    text-decoration: none  ;
+    font-size: 5 px  ;
+    color: #818181  ;
+    display: block  ;
+    transition: 0.3s  ;
+  }
+  
+  .sidenavn a:hover {
+    color: #f1f1f1  ;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute  ;
+    top: 0  ;
+    right: 25px  ;
+    padding-right: 15px  ;
+    font-size: 50px  ;
+    /* margin-right: 410px; */
+    background-color: #10847e  ;
+  }
+  .sites-div{
+      background-color: #10847e  ;
+      height: 85px  ;
+      margin-top: -60px  ;
+      padding-top: 10px   ;
+      padding-left: 10px ;
+      box-sizing: border-box  ;
+      display: flex ;
+  }
+  body {
+    margin: 0  ;
+  }
+  .navbara {
+    display: flex ;
+    width: 100%  ;
+    height: 125px  ;
+    flex-direction: column  ;
+    background-color: #10847e  ;
+  }
+  .navbara-top {
+    display: flex  ;
+    flex-direction: row  ;
+    height: 75px  ;
+    border-top: 1px solid #000  ;
+  }
+  .navbara-logo {
+    flex-basis: 15% ;
+    text-align: center ;
+  }
+  .navbara-logo > img {
+    width: 80%;
+    padding: 5%;
+  }
+  .navbara-search {
+    flex-basis: 70%;
+  }
+  .navbara-side {
+    flex-basis: 15%;
+  }
+  #search-boxe {
+    width: 90%;
+    height: 50px;
+    margin: 10px 0 0 5%;
+    justify-self: center;
+    background-color: #fff;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  #nava-btn {
+    text-align: left;
+    background-color: #10847e;
+    border: 1px solid #10847e;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    color: #fff;
+    font-weight: 50px;
+  }
+  #city {
+    height: 95%;
+    width: 100px;
+    color: #37857e;
+    font-size: 1rem;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: 1px solid #fff;
+  }
+  .navbara-side span {
+    font-size: 0.8rem;
+  }
+  #search-boxe > input {
+    height: 92%;
+    width: 82.3%;
+    font-size: 1.1rem;
+    padding: 0 10px;
+    border: 1px solid #fff;
+  }
+  #search-boxe > button {
+    height: 50px;
+    width: 50px;
+    margin: 0px;
+    background-color: #f2f2f2;
+    border: 1px solid #fff;
+    border-radius: 50%;
+  }
+  .navbara-menu {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+  }
+  .navbara-tab {
+    flex-basis: 60%;
+  }
+  .navbara-button {
+    flex-basis: 40%;
+  }
+  .arrow {
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+  #tab-nava {
+    height: 100%;
+    margin-left: 30%;
+    width: 600px;
+  }
+  .tab1 {
+    height: 95%;
+    margin: 0px;
+    color: #fff;
+    background-color: #10847e;
+    font-size: 1.2rem;
+    border: none;
+  }
+  .tab1:hover {
+    text-decoration: underline;
+  }
+  #btn-nava {
+    height: 100%;
+    margin-right: 5%;
+  }
+  .tab2 {
+    height: 95%;
+    margin: 0px;
+    color: #fff;
+    background-color: #10847e;
+    font-size: 1.2rem;
+    border: none;
+    margin-left: 10%;
+  }
+  .tab2:hover {
+    text-decoration: underline;
+  }
+  .drawer-link{
+      margin-left: 50px;
+      font-size: 20px;
+      font-family: 'Times New Roman', Times, serif;
+  }
+  #drawer-input{
+      text-align: center;
+      margin-left: 50px;
+      height: 35px;
+      width: 80%;
+      font-size: 20px;
+      border-radius: 10px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      border: grey 0.5px solid;
+
+  }
+  #continue-btn{
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 50px;
+    font-size: 20px;
+    color: white;
+    background-color: #10847e;
+    height: 40px;
+    width: 81%;
+    border-radius: 10px;
+    border: none;
+
+  }
+  #drawerIDd h6{
+      margin-left: 50px;
+      font-size: 15px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: 400;
+  }
+  #drawerIDd a{
+      text-decoration: none;
+      color: #10847e;
+
+  }
+  #drawerIDd h3{
+      font-size: 18px;
+      font-weight: 500;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .site-div h4{
+    margin-left: 215px;
+    margin-top: -8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: lightgray;
+
+  }
+  .site-div h4:hover{
+    color: white;
+    cursor: pointer;
+
+  }
+  .site-div img{
+    width: 250px;
+    height: 70px;
+  }
+  #drawerIDd button:hover{
+    cursor: pointer;
+  } 
+  .otpinput{
+    height: 45px;
+    width: 45px;
+    border-radius: 5px;
+    border: #10847e solid 1px;
+    margin-left: 60px;
+    text-align: center;
+    font-size: 20px;
+  }
+  .fa-user{
+    margin-right: 4px;
+  }
+  .fa-cart-shopping{
+    margin-right: 4px;
+  }
+  .fa-magnifying-glass{
+    margin-left: 8px;
+    font-size: 20px;
+  }
+  #search-boxe input:focus{
+    border: none;
+    outline: none;
+  }
+  button:hover{
+    cursor: pointer;
+  }
+  #phoneNumber{
+    font-weight: lighter;
+    font-style: italic;
+  }
+  
