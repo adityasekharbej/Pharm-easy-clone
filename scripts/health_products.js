@@ -1,3 +1,4 @@
+let helthcare = JSON.parse(localStorage.getItem('categories')) 
 console.log(helthcare);
 append(helthcare);
 
@@ -7,7 +8,7 @@ data.forEach(function(elem,index){
 var div = document.createElement("div");
 div.setAttribute("id","items")
 div.addEventListener("click", function () {
-         window.location.href = "PersonalCare.html";
+         openCat(elem)
       });
 // div.style.width="45%";
 // div.style.height="120px";
@@ -46,4 +47,13 @@ function showSlides() {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
   setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+
+
+function openCat(elem){
+
+  // console.log(elem.href)
+  window.location.href = elem.href;
+
+  
 }

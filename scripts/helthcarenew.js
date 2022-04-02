@@ -7,6 +7,7 @@ helthcare = [
     name_url: "https://pharmeasy.in/health-care/personal-care-877",
     offer: "Upto 80% off",
     offer_url: "https://pharmeasy.in/health-care/personal-care-877",
+    href: 'personalcare.html'
   },
   {
     image:
@@ -16,6 +17,7 @@ helthcare = [
     name_url: "https://pharmeasy.in/health-care/health-food-and-drinks-648",
     offer: "Upto 57% off",
     offer_url: "https://pharmeasy.in/health-care/health-food-and-drinks-648",
+    href: 'healthcare.html'
   },
   {
     image:
@@ -144,3 +146,5 @@ helthcare = [
     offer_url: "https://pharmeasy.in/health-care/pet-care-669",
   },
 ];
+
+localStorage.setItem('categories', JSON.stringify(helthcare))

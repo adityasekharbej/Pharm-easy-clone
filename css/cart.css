@@ -337,16 +337,16 @@
   }
   #imgCon {
     height: 60px;
-    width: 80px;
+    max-width: 100%;
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
   }
   
-  #imgIn {
+  /* #imgIn {
     height: 100%;
     width: 100%;
-  }
+  } */
   #divQ {
     display: flex;
   }
