@@ -4,10 +4,83 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Order Medicines</title>
+    <link
+      rel="shortcut icon"
+      href="https://pharmeasy.in/pe_logo_2x.png"
+      type="image/x-icon"
+    />
     <link rel="stylesheet" href="./style/orderemedicin.css" />
+    <link rel="stylesheet" href="./style/header.css" />
+    <link rel="stylesheet" href="./style/footer.css" />
+    <script src="./script/header.js"></script>
+    <script
+      src="https://kit.fontawesome.com/5eb914bf2e.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/1d18d1cefe.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
+    <!------------------------------------ Start of The header ---------------------------------------------->
+    <header id="nav-head">
+      <div class="navbar">
+        <div class="navbar-top">
+          <div class="navbar-logo">
+            <img
+              src="https://assets.pharmeasy.in/web-assets/dist/fca22bc9.png"
+              alt="Pharmeasy logo"
+            />
+          </div>
+          <div class="navbar-search">
+            <div id="search-box">
+              <select name="city" id="city">
+                <option value="select-city">Select City</option>
+                <option value="bengaluru">Bengaluru</option>
+                <option value="delhi">Delhi NCR</option>
+                <option value="pune">Pune</option>
+                <option value="mumbai">Mumbai</option>
+              </select>
+              <input
+                class="search-input"
+                type="text"
+                placeholder="Search medicines/Healthcare products @18% Off"
+              /><i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+          </div>
+          <div class="navbar-side">
+            <button onclick="" id="nav-btn"></button>
+          </div>
+        </div>
+        <div class="navbar-menu">
+          <div class="navbar-tab">
+            <div id="tab-nav">
+              <button class="tab1">Order Medicines</button>
+              <button class="tab1">Healthcare Products</button>
+              <button class="tab1">Diagonstic Tests</button>
+            </div>
+          </div>
+          <div class="navbar-button">
+            <div id="btn-nav">
+              <button class="tab2">
+                <i class="fa-solid fa-badge-percent"></i>Offers
+              </button>
+              <button class="tab2" onclick="openNav()" id="loginuser">
+                <i class="fa-solid fa-user"></i>Login/Signup
+              </button>
+              <button class="tab2">
+                <i class="fa-solid fa-cart-shopping"></i>Cart
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--------------------------------- Ending Of header ------------------------------------------------------>
+
+    <!------------------------------------------- Starting of main body------------------------------------------ -->
     <main>
       <div id="container">
         <div id="section1">
@@ -391,6 +464,121 @@
         <div id="download"></div>
       </div>
     </main>
+    <!--------------------------------------------- Ending of main body ----------------------------------------------->
+
+    <!------------------------------------ Start of The footer ---------------------------------------------->
+    <footer>
+      <div id="parent">
+        <div class="frame">
+          <div class="block1">
+            <div class="hedding">Company</div>
+            <div>Carrer</div>
+            <div>Blog</div>
+            <div>Patner with PharmEasy</div>
+            <div>Sell at PharmEasy</div>
+          </div>
+          <div class="block2">
+            <div class="hedding">Our Services</div>
+            <div>Order Medicine</div>
+            <div>Heathcare Products</div>
+            <div>Diagnostic Tests</div>
+          </div>
+          <div class="block3">
+            <div class="hedding">Covid Essentials</div>
+            <div>Devices</div>
+            <div>Nutrition &Fitness Supplements</div>
+            <div>Personal Care</div>
+            <div>Ayurvedic Care</div>
+            <div>Baby and Mom Care</div>
+            <div>Skin Care</div>
+            <div>Deabetic Care</div>
+            <div>Short Term Aliments</div>
+            <div>Lifestyle Aliments</div>
+            <div>Home Care</div>
+            <div>Women Care</div>
+          </div>
+          <div class="block4">
+            <div class="hedding">Need Help</div>
+            <div>Browse All Medicine</div>
+            <div>Browse All Molecules</div>
+            <div>FAQs</div>
+          </div>
+          <div class="block5">
+            <div class="hedding">Editorial Policy</div>
+            <div>Privacy Policy</div>
+            <div>Vulnerability Disclouser Policy</div>
+            <div>Terms and condition</div>
+            <div>Customer Support Policy</div>
+            <div>Return Policy</div>
+          </div>
+
+          <div class="block6">
+            <div class="hedding">FOLLOW US</div>
+            <div>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-youtube"></i>
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-twitter"></i>
+            </div>
+          </div>
+        </div>
+        <div class="hedding1">Our Payment Partners</div>
+        <div class="block7">
+          <div class="partners">
+            <img
+              src="https://assets.pharmeasy.in/web-assets/dist/af0c6812.svg"
+              alt="Google pay"
+            />
+            <img
+              src="https://assets.pharmeasy.in/web-assets/dist/0e010044.svg"
+              alt=""
+            />
+            <img
+              src="https://assets.pharmeasy.in/web-assets/dist/1066bb1f.svg"
+              alt=""
+            />
+            <img
+              src="https://assets.pharmeasy.in/web-assets/dist/3a1a533d.svg"
+              alt=""
+            />
+            <img
+              src="https://assets.pharmeasy.in/web-assets/dist/fbea1701.svg"
+              alt=""
+            />
+            <img
+              src="https://assets.pharmeasy.in/web-assets/dist/4733a49d.svg"
+              alt=""
+            />
+            <img
+              src="https://assets.pharmeasy.in/web-assets/dist/b278e536.svg"
+              alt=""
+            />
+            <img
+              src="https://assets.pharmeasy.in/web-assets/dist/0aca2077.svg"
+              alt=""
+            />
+            <img
+              src="https://assets.pharmeasy.in/web-assets/dist/44a51ca5.svg"
+              alt=""
+            />
+            <img
+              src="https://assets.pharmeasy.in/web-assets/dist/d058b00d.svg"
+              alt=""
+            />
+            <img
+              src="https://assets.pharmeasy.in/web-assets/dist/e9445364.svg"
+              alt=""
+            />
+            <img
+              src="https://assets.pharmeasy.in/web-assets/dist/6e09c713.svg"
+              alt=""
+            />
+            <span id="pay"> © 2021 PharmEasy. All Rights Reserved</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--------------------------------- Ending Of footer ------------------------------------------------------>
   </body>
 </html>
 <script src="./script/sideshow.js"></script>
@@ -402,4 +590,13 @@
 
   let downloadDiv = document.getElementById("download");
   downloadDiv.innerHTML = download();
+</script>
+<script>
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "500px";
+  }
+
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+  }
 </script>
