@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Order Medicines</title>
+    <link
+      rel="shortcut icon"
+      href="https://pharmeasy.in/pe_logo_2x.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./css/orderemedicin.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <script src="./scripts/header.js"></script>
+    <script
+      src="https://kit.fontawesome.com/5eb914bf2e.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/1d18d1cefe.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!------------------------------------ Start of The header ---------------------------------------------->
+    <header id="nav-head">
+      <div class="navbar">
+        <div class="navbar-top">
+          <div class="navbar-logo">
+            <img
+              src="https://assets.pharmeasy.in/web-assets/dist/fca22bc9.png"
+              alt="Pharmeasy logo"
+            />
+          </div>
+          <div class="navbar-search">
+            <div id="search-box">
+              <select name="city" id="city">
+                <option value="select-city">Select City</option>
+                <option value="bengaluru">Bengaluru</option>
+                <option value="delhi">Delhi NCR</option>
+                <option value="pune">Pune</option>
+                <option value="mumbai">Mumbai</option>
+              </select>
+              <input
+                class="search-input"
+                type="text"
+                placeholder="Search medicines/Healthcare products @18% Off"
+              /><i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+          </div>
+          <div class="navbar-side">
+            <button onclick="" id="nav-btn"></button>
+          </div>
+        </div>
+        <div class="navbar-menu">
+          <div class="navbar-tab">
+            <div id="tab-nav">
+              <button class="tab1"><a href="ordermedicin.html">Order Medicines</a></button>
+              <button class="tab1"><a href="health_products.html">Healthcare Products</a></button>
+              <button class="tab1"><a href="labtest.html">Lab Tests</a></button>
+            </div>
+          </div>
+          <div class="navbar-button">
+            <div id="btn-nav">
+              <button  class="tab2"><i class="fa-solid fa-tags"></i>&nbsp;<a href="offers.html">Offers</a></button>
+              <button  class="tab2" onclick="openNav()" id="loginuser"><i class="fa-solid fa-user"></i>User</button>
+              <button  class="tab2"><i class="fa-solid fa-cart-shopping"></i><a href="cart.html">Cart</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--------------------------------- Ending Of header ------------------------------------------------------>
+
+    <!------------------------------------------- Starting of main body------------------------------------------ -->
+    <main>
+      <div id="container">
+        <div id="section1">
+          <a href="index.html">Home</a>
+          <div>>&nbsp;&nbsp; Order Medicines Online</div>
+        </div>
+        <div id="section2">
+          <div id="section2LHS">
+            <div id="section2LHS_main">
+              <div id="medord">Order Medicines Online</div>
+              <div id="medord_search">
+                <div id="img_FLE">
+                  <img src="./images/img1.PNG" alt="img" height="100%" />
+                </div>
+                <div id="medord_searchText">
+                  Search for Medicines / Healthcare Products
+                </div>
+                <div id="medord_searchBox">
+                  <div id="medord_searchBox_select">
+                    <div id="medord_searchBox_select1">
+                      <span>Select Pincode</span>
+                    </div>
+                  </div>
+                  <div id="medord_searchBox_input">
+                    <input
+                      value=""
+                      type="text"
+                      placeholder="Search medicines/Healthcare products @18% Off"
+                    />
+                    <div>
+                      <img src="./images/img2.PNG" alt="img2" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="section2RHS">
+            <div id="section2RHS_main">
+              <div>
+                <img
+                  src="./images/img4.PNG"
+                  alt="img4"
+                  width="100%"
+                  height="80%"
+                />
+              </div>
+              <div>
+                <img
+                  src="./images/img3.PNG"
+                  alt="img3"
+                  width="100%"
+                  height="100%"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="section3"></div>
+        <div id="section4">
+          <div id="section4_main">
+            <h2>What our customers have to say</h2>
+            <div id="section4_main1">
+              <div id="section4_main2">
+                <div class="sec4">
+                  <div>
+                    <div>Debanjan Roy</div>
+                    <div>April 18, 2020</div>
+                  </div>
+                  <div><img src="./images/img5.PNG" alt="img5" /></div>
+                </div>
+                <div class="sec4">
+                  <div>
+                    <div>Rohini Sarkar</div>
+                    <div>April 21, 2020</div>
+                  </div>
+                  <div><img src="./images/img6.PNG" alt="img6" /></div>
+                </div>
+                <div class="sec4">
+                  <div>
+                    <div>Rajarshi Sarkar</div>
+                    <div>April 22, 2020</div>
+                  </div>
+                  <div><img src="./images/img7.PNG" alt="img7" /></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="section5">
+          <div id="section5_main">
+            <div>
+              <h2>India's No. 1 Medicine Delivery App</h2>
+              <p>
+                The concept of <b>medicine home delivery</b> has been taken to a
+                new level by the PharmEasy <b>online medicine delivery app</b>.
+                You can use the PharmEasy <b>online medicine delivery app</b>
+                to browse through an extensive range of medicines. Each medicine
+                undergoes a 3-step quality check.
+              </p>
+              <p>
+                Whatever be your medicinal requirement, you are sure to locate
+                it in this online pharmacy. All you have to do then is to add it
+                to your cart and place the order. In 3 hours*, the medicines
+                will be delivered to you. India’s beloved
+                <b>online medicine delivery</b> app makes sure that you get your
+                medicines in record time because we know how vital time is in
+                any treatment. Sit back, and we will have all your medical
+                necessities delivered to your doorstep.
+              </p>
+            </div>
+            <div>
+              <h2>Online Medicine - Your Online Medical Store in India</h2>
+              <p>
+                Tired of walking all the way to your local medicine store?
+                Worried that going out is risky during the current times?
+                <b>Order</b>
+                medicines online at PharmEasy, India’s trusted online medicine
+                app. With more than 1 lakh medicines always in stock, you are
+                sure to find what you are looking for, and that too at
+                affordable prices!
+              </p>
+              <p>
+                Besides, extremely stringent sanitization norms are followed at
+                your favourite online medical store. PharmEasy takes the safety
+                of customers and employees very seriously.
+              </p>
+            </div>
+            <div id="formargin">
+              <h2>Reasons To Buy Medicine Online From PharmEasy</h2>
+              <span
+                >Here are a few reasons that will convince you to give online
+                medicine order through the PharmEasy app -</span
+              >
+            </div>
+            <div>
+              <li><span>1,200+ cities and 20,000+ Pin codes served</span></li>
+              <li>
+                <span><b>Medicine delivery</b> within 3 hours*</span>
+              </li>
+              <li><span>1 Lakh+ medicines available</span></li>
+              <li><span>Cash on delivery option available</span></li>
+              <li><span>Attractive offers</span></li>
+              <li><span>Cashback option through wallet</span></li>
+              <li><span>Stringent quality checks</span></li>
+              <li>
+                <span
+                  >Garnered the trust of more than 10 million users who have
+                  made an <b>online purchase</b> through PharmEasy</span
+                >
+              </li>
+            </div>
+            <div>
+              <h2>Get 3-Step Quality-checked Medicines</h2>
+              <span
+                >PharmEasy is a one-stop-shop for all your healthcare needs. We
+                have 1L+ products for you to choose from. Buy medicines online
+                at affordable prices from the</span
+              ><br />
+              <span
+                >comforts of your home in just a few clicks and get them
+                delivered at your doorstep.</span
+              ><br />
+              <span
+                >The entire process of shopping for medicines is hassle-free and
+                convenient. All you have to do is search for the products you
+                need on our website or app, add to cart</span
+              ><br />
+              <span>and then proceed with the checkout process.</span><br />
+              <span
+                >With our scheduled refill reminder, you don’t even need to keep
+                track of your refill dates.</span
+              ><br />
+              <span
+                >What’s more,
+                <a href="offers.html" style="color: #10847e"
+                  >we have great offers</a
+                >, with added discounts and massive e-wallet cashbacks on
+                purchasing medicines!</span
+              ><br />
+            </div>
+          </div>
+        </div>
+        <div id="section6">
+          <div class="same">
+            <div>
+              <span>✅ Is buying medicines online safe?</span
+              ><img src="./images/img8.PNG" alt="img8" />
+            </div>
+            <span
+              >Absolutely! All our medicines undergo a three-step quality check
+              process to ensure they are of high quality. <br />
+              We source our products only from licensed retail pharmacies.
+              <br />
+              PharmEasy is used by 5M+ users across 1.2k+ cities in India incl.
+              Bangalore, Delhi, Mumbai, Kolkata, Hyderabad, Gurgaon, Noida,
+              Pune, etc. for <br />
+              purchasing medicines online.</span
+            >
+          </div>
+          <div class="same">
+            <div>
+              <span>✅ Why choose us for your medicine home delivery?</span>
+              <img src="./images/img8.PNG" alt="img8" />
+            </div>
+            <li><span>Used by 5M+ customers</span></li>
+            <li><span>Delivery in 24-48* hours</span></li>
+            <li>
+              <span
+                >Over 1L+ meds and healthcare products for you to select
+                from</span
+              >
+            </li>
+            <li><span>3-step quality-checked products</span></li>
+            <li>
+              <span>PharmEasy Plus subscription with exclusive benefits</span>
+            </li>
+            <li>
+              <span>We deliver in 22k+ pin codes across 1.2k+ cities</span>
+            </li>
+            <li><span>Scheduled refill reminders</span></li>
+            <li><span>Attractive deals and e-wallet cashbacks</span></li>
+            <li>
+              <span
+                >A highly capable team of experienced pharmacists and healthcare
+                professionals</span
+              >
+            </li>
+            <li><span>Cash-on-delivery available</span></li>
+          </div>
+          <div class="same">
+            <div>
+              <span>✅ How do I order medicines from PharmEasy?</span
+              ><img src="./images/img8.PNG" alt="img8" />
+            </div>
+            <li type="1">
+              <span
+                >Visit our website or open our online medicine app on your
+                phone.</span
+              >
+            </li>
+            <li type="1">
+              <span
+                >Upload a valid doctor’s prescription and search from our list
+                of medicines.</span
+              >
+            </li>
+            <li type="1">
+              <span
+                >Enter the address where you want your package to be
+                delivered.</span
+              >
+            </li>
+            <li type="1">
+              <span
+                >Our partner retailer will call you to confirm the order.</span
+              >
+            </li>
+            <li type="1">
+              <span>The medicine is packed by the pharmacist.</span>
+            </li>
+            <li type="1">
+              <span
+                >Our delivery person will deliver the package at your
+                doorstep.</span
+              >
+            </li>
+            <p style="margin: 10px 0 10px 5px">
+              <span
+                >You can use our app or visit the website to track your
+                package.</span
+              >
+            </p>
+          </div>
+          <div class="same">
+            <div>
+              <span>✅ When will PharmEasy deliver my medicines?</span
+              ><img src="./images/img8.PNG" alt="img8" />
+            </div>
+            <span
+              >Once you purchase your medicines online with us, you will get it
+              within 24-48* hours. <br />
+              <small
+                >*T&C: The delivery time might vary depending on the delivery
+                location.</small
+              ></span
+            >
+          </div>
+          <div class="same">
+            <div>
+              <span
+                >✅ Do I get discounts/cashback while ordering medicines online
+                with PharmEasy?</span
+              ><img src="./images/img8.PNG" alt="img8" />
+            </div>
+            <span
+              >Yes, you can get huge discounts and massive e-wallet cashback on
+              purchasing medicines.
+            </span>
+          </div>
+          <div class="same">
+            <div>
+              <span
+                >✅ If a medicine that I want to order is currently unavailable
+                then what should I do?</span
+              ><img src="./images/img8.PNG" alt="img8" />
+            </div>
+            <span
+              >You can log in from the PharmEasy app and click on the ‘Notify
+              Me’ option for that particular product or medicine. You will be
+              notified as soon as the <br />
+              product is back in stock.</span
+            >
+          </div>
+          <div class="same">
+            <div>
+              <span>✅ When will I receive my order?</span
+              ><img src="./images/img8.PNG" alt="img8" />
+            </div>
+            <span
+              >Your order will be delivered as per the 'Estimated Delivery Date'
+              committed at the time of order placement. You can check this by
+              selecting your order</span
+            >
+            <br />
+            <span
+              >from the "My Orders" section. Keep a lookout for our order
+              delivery updates. <br /><small
+                >Note: Due to the current COVID-19 crisis, the delivery date may
+                not be as per usual timelines and we request you to bear with
+                us. But rest assured, we are working round the <br />
+                clock to deliver your order as soon as possible.</small
+              >
+            </span>
+          </div>
+          <div class="same">
+            <div>
+              <span>✅ What is the shelf life of medicines being provided?</span
+              ><img src="./images/img8.PNG" alt="img8" />
+            </div>
+            <span
+              >We ensure that the shelf life of the medicines being supplied by
+              our partner retailers is a minimum of 3 months from the date of
+              delivery.</span
+            >
+          </div>
+          <div class="same">
+            <div>
+              <span>✅ How can I modify my order?</span
+              ><img src="./images/img8.PNG" alt="img8" />
+            </div>
+            <span
+              >Unfortunately, once your order is confirmed, it cannot be
+              modified. You can place a fresh order.</span
+            >
+          </div>
+          <div class="same">
+            <div>
+              <span>✅ How do I cancel my order?</span
+              ><img src="./images/img8.PNG" alt="img8" />
+            </div>
+            <span
+              >You can cancel your order from the ‘Order Details’ screen before
+              it is out for delivery. Simply click on the Account icon at the
+              bottom of the App <br />
+              Homepage > select ‘Orders’ > Select the order which you want to
+              cancel > tap “Cancel”. You can also refuse it at the time of
+              delivery and a refund will <br />
+              be processed to the payment source, if the order amount was paid
+              online.</span
+            >
+          </div>
+        </div>
+        <hr id="hr1" />
+
+        <div id="policy"></div>
+
+        <hr id="hr2" />
+
+        <div id="download"></div>
+      </div>
+    </main>
+    <!--------------------------------------------- Ending of main body ----------------------------------------------->
+
+    <!------------------------------------ Start of The footer ---------------------------------------------->
+    <footer>
+      <div id="parent">
+        <div class="frame">
+          <div class="block1">
+            <div class="hedding">Company</div>
+            <div>Carrer</div>
+            <div>Blog</div>
+            <div>Patner with PharmEasy</div>
+            <div>Sell at PharmEasy</div>
+          </div>
+          <div class="block2">
+            <div class="hedding">Our Services</div>
+            <div>Order Medicine</div>
+            <div>Heathcare Products</div>
+            <div>Diagnostic Tests</div>
+          </div>
+          <div class="block3">
+            <div class="hedding">Covid Essentials</div>
+            <div>Devices</div>
+            <div>Nutrition &Fitness Supplements</div>
+            <div>Personal Care</div>
+            <div>Ayurvedic Care</div>
+            <div>Baby and Mom Care</div>
+            <div>Skin Care</div>
+            <div>Deabetic Care</div>
+            <div>Short Term Aliments</div>
+            <div>Lifestyle Aliments</div>
+            <div>Home Care</div>
+            <div>Women Care</div>
+          </div>
+          <div class="block4">
+            <div class="hedding">Need Help</div>
+            <div>Browse All Medicine</div>
+            <div>Browse All Molecules</div>
+            <div>FAQs</div>
+          </div>
+          <div class="block5">
+            <div class="hedding">Editorial Policy</div>
+            <div>Privacy Policy</div>
+            <div>Vulnerability Disclouser Policy</div>
+            <div>Terms and condition</div>
+            <div>Customer Support Policy</div>
+            <div>Return Policy</div>
+          </div>
+
+          <div class="block6">
+            <div class="hedding">FOLLOW US</div>
+            <div>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-youtube"></i>
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-twitter"></i>
+            </div>
+          </div>
+        </div>
+        <div class="hedding1">Our Payment Partners</div>
+        <div class="block7">
+          <div class="partners">
+            <img
+              src="https://assets.pharmeasy.in/web-assets/dist/af0c6812.svg"
+              alt="Google pay"
+            />
+            <img
+              src="https://assets.pharmeasy.in/web-assets/dist/0e010044.svg"
+              alt=""
+            />
+            <img
+              src="https://assets.pharmeasy.in/web-assets/dist/1066bb1f.svg"
+              alt=""
+            />
+            <img
+              src="https://assets.pharmeasy.in/web-assets/dist/3a1a533d.svg"
+              alt=""
+            />
+            <img
+              src="https://assets.pharmeasy.in/web-assets/dist/fbea1701.svg"
+              alt=""
+            />
+            <img
+              src="https://assets.pharmeasy.in/web-assets/dist/4733a49d.svg"
+              alt=""
+            />
+            <img
+              src="https://assets.pharmeasy.in/web-assets/dist/b278e536.svg"
+              alt=""
+            />
+            <img
+              src="https://assets.pharmeasy.in/web-assets/dist/0aca2077.svg"
+              alt=""
+            />
+            <img
+              src="https://assets.pharmeasy.in/web-assets/dist/44a51ca5.svg"
+              alt=""
+            />
+            <img
+              src="https://assets.pharmeasy.in/web-assets/dist/d058b00d.svg"
+              alt=""
+            />
+            <img
+              src="https://assets.pharmeasy.in/web-assets/dist/e9445364.svg"
+              alt=""
+            />
+            <img
+              src="https://assets.pharmeasy.in/web-assets/dist/6e09c713.svg"
+              alt=""
+            />
+            <span id="pay"> © 2021 PharmEasy. All Rights Reserved</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--------------------------------- Ending Of footer ------------------------------------------------------>
+  </body>
+</html>
+<script src="./scripts/sideshow.js"></script>
+<script type="module">
+  import { policy, download } from "./scripts/policyDownload.js";
+
+  let policyDiv = document.getElementById("policy");
+  policyDiv.innerHTML = policy();
+
+  let downloadDiv = document.getElementById("download");
+  downloadDiv.innerHTML = download();
+</script>
+<script>
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "500px";
+  }
+
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+  }
+</script>
