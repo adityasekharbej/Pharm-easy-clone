@@ -62,8 +62,8 @@ const header = () => {
         </div>
         <div class="navbar-button">
           <div id="btn-nav">
-            <button class="tab2"><i class="fa-solid fa-badge-percent"></i>Offers</button>
-            <button class="tab2" onclick="openNav()" id="loginuser"><i class="fa-solid fa-user"></i>Login/Signup</button>
+            <button class="tab2"><i class="fa-solid fa-tags"></i>&nbsp;Offers</button>
+            <button class="tab2" onclick="openNav()" id="loginuser"><i class="fa-solid fa-user"></i>User</button>
             <button class="tab2"><i class="fa-solid fa-cart-shopping"></i>Cart</button>
           </div>
         </div>
