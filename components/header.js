@@ -55,16 +55,16 @@ const header=()=>{
       <div class="navbara-menu">
         <div class="navbara-tab">
           <div id="tab-nava">
-            <button class="tab1">Order Medicines</button>
-            <button class="tab1">Healthcare Products</button>
-            <button class="tab1">Diagonstic Tests</button>
+          <button class="tab1"><a href="ordermedicin.html">Order Medicines</a></button>
+          <button class="tab1"><a href="health_products.html">Healthcare Products</a></button>
+          <button class="tab1"><a href="labtest.html">Lab Tests</a></button>
           </div>
         </div>
         <div class="navbara-button">
           <div id="btn-nava">
-            <button class="tab2"><i class="fa-solid fa-badge-percent"></i>Offers</button>
-            <button class="tab2" onclick="openNav()" id="loginuser"><i class="fa-solid fa-user"></i>Login/Signup</button>
-            <button class="tab2"><i class="fa-solid fa-cart-shopping"></i>Cart</button>
+          <button  class="tab2"><i class="fa-solid fa-tags"></i>&nbsp;<a href="offers.html">Offers</a></button>
+          <button  class="tab2" onclick="openNav()" id="loginuser"><i class="fa-solid fa-user"></i>User</button>
+          <button  class="tab2"><i class="fa-solid fa-cart-shopping"></i><a href="cart.html">Cart</a></button>
           </div>
         </div>
       </div>
