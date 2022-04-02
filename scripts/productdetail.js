@@ -81,9 +81,11 @@ displayitem(item)
 let cartdata = JSON.parse(localStorage.getItem('cartitems')) || [];
 
 document.getElementById('cartbtn').addEventListener('click', () =>{
+    item.quantity = 1
     cartdata.push(item)
 
     localStorage.setItem('cartitems', JSON.stringify(cartdata))
+    alert('Item added to your cart')
 })
 
 
