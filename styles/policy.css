@@ -1,0 +1,21 @@
+#policy{
+    width: 73%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5%;
+    font-size: 17px;
+    line-height: 1.5;
+}
+#policy > div{
+    box-sizing: border-box;
+}
+
+#policy img+p{
+    font-weight: 700;
+    color: #4f585e;
+    margin-bottom: -12px;
+}
+#policy p+p{
+    color: #8897a2;
+}

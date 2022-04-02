@@ -10,6 +10,7 @@ let offerData = [
         title: 'Get flat Rs.250 cashback on ICICI Debit & Credit cards',
         desc: 'Offer valid on transactions above ₹2000.',
         img: 'https://cms-contents.pharmeasy.in/offer/6901b462e6d-icicinew.jpg',
+        code: '',
         code: 'No code required',
         btn: 'Continue'
     },
@@ -38,7 +39,7 @@ let offerData = [
         title: 'Get up to Rs.750 cashback via PhonePe wallet only.',
         desc: 'Offer valid on transactions above ₹500',
         img: 'https://cms-contents.pharmeasy.in/offer/8500c9729db-logo_PhonePe_PhonePe.png',
-        code: 'No code required',
+        code: '',
         btn: 'Continue'
     },
     {
@@ -59,6 +60,7 @@ let offerData = [
         title: 'Get 4000 Paytm Cashback Points via Paytm wallet | Postpaid',
         desc: 'Valid once per user on transactions above ₹999.',
         img: 'https://cms-contents.pharmeasy.in/offer/e11270f3e3f-paytmcashbackoptimized.png?dim=60x0&dpr=1.5&q=100',
+        code: '',
         code: 'No code required',
         btn: 'Continue '
     },
@@ -73,6 +75,7 @@ let offerData = [
         title: 'FLAT 18% Off on all medicine orders.',
         desc: 'Get FLAT 18% Off on all medicine orders + All coupons applicable over & above the flat discount.',
         img: 'https://cms-contents.pharmeasy.in/offer/df070d160cc-Logo_PE_PE_PE.png?dim=60x0&dpr=1.5&q=100',
+        code: '',
         code: 'No code required',
         btn: 'Continue'
     },
@@ -80,8 +83,7 @@ let offerData = [
         title: 'Get up to ₹500 cashback via Mobikwik. Use code MBK500 on Mobikiwik',
         desc: 'Use code MBK500 while paying on Mobikwik, enjoy up to ₹500 cashback on PharmEasy (valid on transactions above ₹750).',
         img: 'https://cms-contents.pharmeasy.in/offer/8cdf65ac110-mobiwiklogo.png',
-        code: 'No code required',
-        btn: 'Continue'
+        code: '',
     },
     {
         title: 'Extra 5% off on Optimum Nutrition.',
@@ -120,3 +122,5 @@ let offerData = [
     }
     
 ];
+
+localStorage.setItem('offers', JSON.stringify(offerData))
