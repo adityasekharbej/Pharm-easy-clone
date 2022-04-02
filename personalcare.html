@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="./styles/personalcare.css">
     <link rel="stylesheet" href="./styles/download.css">
     <link rel="stylesheet" href="./styles/policy.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css">
     <title>Personal Care Product</title>
     <link
     rel="shortcut icon"
@@ -159,6 +161,22 @@
 
     let downloadDiv = document.getElementById('download')
     downloadDiv.innerHTML = download()
+
+    import {header, footer} from './components/headerFooter.js'
+
+    let headerdiv = document.getElementById('header')
+    headerdiv.innerHTML = header()
+
+    let footerdiv = document.getElementById('footer')
+    footerdiv.innerHTML = footer()
+
+    function openNav() {
+    document.getElementById("mySidenav").style.width = "500px";
+    }
+    
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
 
 </script>
 <script src="./scripts/personalData.js"></script>
