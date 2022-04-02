@@ -11,6 +11,7 @@ let offerData = [
         desc: 'Offer valid on transactions above ₹2000.',
         img: 'https://cms-contents.pharmeasy.in/offer/6901b462e6d-icicinew.jpg',
         code: '',
+        code: 'No code required',
         btn: 'Continue'
     },
     {
@@ -24,7 +25,7 @@ let offerData = [
         title: 'Get up to Rs.500 cashback via Amazon Pay',
         desc: 'Offer valid on transactions above ₹100.',
         img: 'https://cms-contents.pharmeasy.in/offer/79c9e323814-AMAZON.jpg',
-        code: '',
+        code: 'No code required',
         btn: 'Continue'
     },
     {
@@ -60,6 +61,7 @@ let offerData = [
         desc: 'Valid once per user on transactions above ₹999.',
         img: 'https://cms-contents.pharmeasy.in/offer/e11270f3e3f-paytmcashbackoptimized.png?dim=60x0&dpr=1.5&q=100',
         code: '',
+        code: 'No code required',
         btn: 'Continue '
     },
     {
@@ -74,6 +76,7 @@ let offerData = [
         desc: 'Get FLAT 18% Off on all medicine orders + All coupons applicable over & above the flat discount.',
         img: 'https://cms-contents.pharmeasy.in/offer/df070d160cc-Logo_PE_PE_PE.png?dim=60x0&dpr=1.5&q=100',
         code: '',
+        code: 'No code required',
         btn: 'Continue'
     },
     {
@@ -81,7 +84,6 @@ let offerData = [
         desc: 'Use code MBK500 while paying on Mobikwik, enjoy up to ₹500 cashback on PharmEasy (valid on transactions above ₹750).',
         img: 'https://cms-contents.pharmeasy.in/offer/8cdf65ac110-mobiwiklogo.png',
         code: '',
-        btn: 'Continue'
     },
     {
         title: 'Extra 5% off on Optimum Nutrition.',
