@@ -1,8 +1,8 @@
-import footer from "../component/footer.js";
+import footer from "../components/footer.js";
 var footers=document.querySelector("#bottomfooter");
 footers.innerHTML=footer()
 
-import header from "../component/header.js";
+import header from "../components/header.js";
 var headers=document.querySelector("#header");
 headers.innerHTML=header();
 

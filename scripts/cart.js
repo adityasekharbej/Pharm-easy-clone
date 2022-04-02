@@ -1,4 +1,4 @@
-var cartArr = JSON.parse(localStorage.getItem("personal")) || [];
+var cartArr = JSON.parse(localStorage.getItem("cartitems")) || [];
 // var admitted = JSON.parse(localStorage.getItem("admitted")) || [];
 // var rejected = JSON.parse(localStorage.getItem("rejected")) || [];
 console.log(cartArr);
@@ -96,8 +96,8 @@ function showTotal() {
   }, 0);
   console.log(Math.floor(total));
 
-  document.querySelector("#subTotal").innerText = total;
-  document.querySelector("#subTotal1").innerText = total;
+  document.querySelector("#subTotal").innerText = `₹${total}`;
+  document.querySelector("#subTotal1").innerText = `₹${total}`;
 
   localStorage.setItem("TotalValue", JSON.stringify(total));
   // document.querySelector("#totalCount").innerText = total;
@@ -105,7 +105,7 @@ function showTotal() {
 
 function deleteItem(index) {
   cartArr.splice(index, 1);
-  localStorage.setItem("personal", JSON.stringify(cartArr));
+  localStorage.setItem("cartitems", JSON.stringify(cartArr));
   displayData(cartArr);
   showTotal();
 }

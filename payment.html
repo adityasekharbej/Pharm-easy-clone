@@ -130,10 +130,10 @@
             </div>
             <div id="pricebox">
                 <h3>Price Breakdown</h3>
-                <h4>Cart Value : </h4>
-                <h4>Delivery Charge : </h4>
+                <h4>Cart Value : <span id="t"></span> </h4>
+                <h4>Delivery Charge : Free</h4>
                 <hr>
-                <h4>Amount to be paid : </h4>
+                <h4>Amount to be paid : <span id="t1"></span> </h4>
             </div>
         </div>    
     </div>
@@ -159,3 +159,10 @@ for (i = 0; i < coll.length; i++) {
 }
 </script>
 <script src="https://kit.fontawesome.com/1d18d1cefe.js" crossorigin="anonymous"></script>
+
+<script>
+  let total = localStorage.getItem("TotalValue")
+  document.getElementById('t').innerText = `₹${total}`;
+  document.getElementById('t1').innerText = `₹${total}`;
+
+</script>
