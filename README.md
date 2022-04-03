@@ -71,6 +71,10 @@ Pharmeasy is an Indian healthcare website and E-commerce platform for consumers 
 - Nikesh Borkar
 - Yatharth Yadu
 
+## Blogg link
+
+- https://medium.com/@dishantrana107/masai-collaborative-project-pharmeasy-in-website-clone-a087d7b6214b
+
 ## Authors
 
 - [@Nikesh Borkar](https://github.com/NikeshBorkar)
